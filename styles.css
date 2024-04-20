@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilos CSS */
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D47A1;
+    color: white;
+    padding: 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+/* Main */
+
+main {
+    display: flex;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D47A1;
+    color: white;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
